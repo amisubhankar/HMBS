@@ -1,0 +1,95 @@
+body{
+    margin:0px !important;
+}
+
+.card {
+    width: 25rem;
+    display: flex;
+    float: left;
+    margin-left: 2.9%;
+    margin-top: 3%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    color: #DAA520;
+}
+
+
+.Rooms {
+    margin-top: 6.3%;
+}
+
+.Rooms .btn-primary {
+    --bs-btn-bg: rgb(41, 56, 104);
+    --bs-btn-hover-bg: rgb(70, 84, 129);
+}
+
+.AddRoom {
+    padding-top: 1%;
+    padding-bottom: 6%;
+    text-align: center;
+    
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(55, 5, 134);
+    width: 20%;
+}
+
+.Rooms .btn {
+    width: 40%;
+    margin-top: 3%
+}
+
+.Rooms #butn{
+    width: 10%;
+    float:right;
+    margin-top:-2.91%;
+}
+.hotels .btn {
+    width: 100%;
+    margin-top: 3%
+}
+
+
+.UpdateRoom {
+    margin-top: 6.3%;
+    text-align: center;
+}
+
+.DeleteRoom {
+    margin-top: 6.3%;
+    text-align: center
+}
+
+.card {
+    text-align: center
+}
+
+.AddHotel {
+    text-align: center
+}
+
+.Room .mt-5 {
+    font-weight: bold;
+    color: goldenrod;
+    background-color:#F2F3F4;
+    /* background-color: #2F4F4F; */
+    border: 8.1px groove goldenrod!important;
+    border-radius: 20px;
+    width:34.3% !important;
+}
+
+.Room #button{
+    background-color:  #DAA520;
+    border-color: rgb(206, 155, 28);
+    --bs-btn-hover-bg: rgb(226, 226, 226);
+}

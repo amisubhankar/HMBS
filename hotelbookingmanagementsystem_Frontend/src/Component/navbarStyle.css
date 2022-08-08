@@ -1,0 +1,27 @@
+#alllink{
+    background-color: darkslategray ;
+}
+
+#navbar {
+    padding-right: var(--bs-gutter-x);
+    padding-left: var(--bs-gutter-x);
+}
+
+#alllink .navbar-nav .nav-link {
+    color: #F4D03F;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#alllink .navbar-nav .nav-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#alllink .navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
